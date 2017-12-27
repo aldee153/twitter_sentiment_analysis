@@ -6,10 +6,6 @@ library(purrr)
 library(dplyr)
 library(stringr)
 
-api_key <- "vZ9KMcnKMlMHL4shcgeW6HUEX"
-api_secret <- "1LWtqeDXE1bZu6WOg9dL2jnC3uhRvmJIXBePyBQVvdqPfpHnUJ"
-access_token <- "2203710336-zVEVjLQVQEzkOAm2sVtCpkpNWRupfbhTiIjIbkA"
-access_token_secret <- "SyXSmu8oq7v5VvvkJYwu7reEbuS8wztXhMw9clsjUqHuJ"
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
 tweets <- searchTwitter("Paterno", n=5000) %>%
