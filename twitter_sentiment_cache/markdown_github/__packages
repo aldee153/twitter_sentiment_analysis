@@ -1,0 +1,12 @@
+base
+ggplot2
+twitteR
+purrr
+dplyr
+stringr
+bindrcpp
+tidyr
+lubridate
+scales
+tidytext
+broom
